@@ -15,9 +15,9 @@ names = data.sheet_names()    #返回book中所有工作表的名字
 for tempStr in names:
 	print("打印名字："+tempStr)
 
-table = data.sheets()[0]  
-nrows = table.nrows  #获取该sheet中的有效行数
-print("表格有效长度："+str(nrows))
+# table = data.sheets()[0]  
+# nrows = table.nrows  #获取该sheet中的有效行数
+# print("表格有效长度："+str(nrows))
 
 def start():
 	print("----core.start-----------------")

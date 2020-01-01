@@ -17,7 +17,7 @@ import constant
 import g_var
 g_var._init()#在主模块初始化全局变量的dic
 # #定义当前的程序名称
-g_var.set_value("ApplicationTag", "tool_excel")
+g_var.set_value("ApplicationTag", "util_tool_excel")
 # #定义文件的根路径
 g_var.set_value('ApplicationPath', application_path)
 # #定义文件的根路径
